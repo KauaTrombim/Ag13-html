@@ -1,0 +1,28 @@
+.topo{
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    
+}
+
+.corpo{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.subtitulos{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.titulo{
+    font-size: 2em;
+}
+
+.preCasamento, .diaDaNoiva, .cerimonia, .festa, .luaDeMel{
+    flex-grow: 1;
+    padding: 2%;
+}
